@@ -1,0 +1,25 @@
+.Main{
+    height: 100%;
+    width: 65vw;
+    background-color: rgb(26, 26, 26);
+    border-radius: 5px;
+
+}
+
+.BigCardClass{
+    height: 65%;
+    width: 100%;
+    /* background-color: chocolate; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.SmallCardClass{
+    height: 35%;
+    width: 100%;
+    /* background-color: chocolate; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

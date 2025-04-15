@@ -1,0 +1,45 @@
+.Categories{
+    height: 100%;
+    width: 10vw;
+    background-color: rgb(26,26,26);
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.CategoriesHeader{
+    height: 7%;
+    width: 100%;
+    font-weight: 700;
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2vh;
+}
+
+.CategoriesLists{
+    height: 93%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.CategoriesLists button{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: transparent;
+    border: none;
+    font-size: small;
+    cursor: pointer;
+}
+
+.CategoriesLists button:hover{
+    color: chartreuse;
+}

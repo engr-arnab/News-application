@@ -1,0 +1,19 @@
+.Calender {
+    height: 50%;
+    width: 100%;
+}
+
+.MuiPickersCalendarHeader-dayLabel {
+    color: white !important;
+  }
+  
+  /* Selected day styling */
+  .selected-day {
+    color: white !important;
+    background-color: #07c113 !important;
+  }
+  
+  /* Non-selected days */
+  .MuiPickersDay-root {
+    color: green !important;
+  }

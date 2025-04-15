@@ -1,0 +1,11 @@
+.Clock{
+   height: 10%;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+}
+.Clock h1{
+    color: chartreuse;
+}

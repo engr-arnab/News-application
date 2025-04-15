@@ -1,0 +1,44 @@
+.BigCard{
+    height: 100%;
+    width: 50%;
+    /* background-color: rgb(73, 63, 56); */
+    padding: 10px;
+    cursor: pointer;
+}
+
+.BigCardImageBox{
+    height: 80%;
+    width: 100%;
+}
+.BigCardImageBox img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    overflow: hidden;
+}
+.BigCardInfoBox{
+    height: 20%;
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+.BigCardInfoBoxText{
+    height: 70%;
+    width: 100%;
+    /* background-color: brown; */
+    text-overflow: ellipsis;
+    overflow: hidden;
+    
+    
+}
+
+.BigCardInfoBoxSource{
+    margin-top: 4px;
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    /* background-color: burlywood; */
+
+}

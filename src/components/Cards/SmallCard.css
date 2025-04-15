@@ -1,0 +1,32 @@
+.SmallCard{
+    height: 100%;
+    width: 33.333%;
+    padding: 5px 0px; 
+    cursor: pointer;
+}
+
+.SmallCardImageBox{
+    height: 80%;
+    width: 100%;
+    /* background-color: #fff; */
+}
+
+.SmallCardImageBox img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    overflow: hidden;
+}
+.SmallCardInfoBox{
+    height: 20%;
+    width: 100%;
+}
+
+.SmallCardInfoBoxText{
+    height: 95%;
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+
+}
+

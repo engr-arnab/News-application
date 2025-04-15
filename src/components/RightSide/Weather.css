@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    color: white;
+
+}
+
+.Weather {
+    height: 40%;
+    width: 100%;
+    /* border: 1px solid white */
+}
+
+.searchBox {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: chartreuse; */
+}
+
+.searchBox input {
+    height: 5vh;
+    width: 12vw;
+    padding: 10px;
+    font-weight: 600;
+    background-color: rgb(6, 7, 10);
+    border: none;
+}
+
+.otherInfo{
+    height: 70%;
+    width: 100%;
+    /* background-color: chocolate; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
